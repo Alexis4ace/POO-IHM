@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TP4.jnlp">
+  <information>
+    <title>TP4</title>
+    <vendor>abottin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TP4.jar" size="17141" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TP4" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="tp4.exercice5"  name="TP4" >
+    <fx:param name="arg1" value="25"/>
+    <fx:param name="arg2" value="75"/>
+  </jfx:javafx-desc>
+  <update check="always"/>
+</jnlp>
